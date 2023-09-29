@@ -5,7 +5,15 @@ module.exports = {
     "./templates/**/*.html.twig",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primary': '#336148',
+        'secondary': '#F1EFE2'
+      },
+      size: {
+        xs: '12px',
+      }
+    },
   },
   plugins: [],
 }
